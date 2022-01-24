@@ -5,3 +5,10 @@ O que eu vou aprender na Trybe:
 - Git
 - HTML
 - CSS
+
+
+Aprendizados nos próximos módulos 
+
+HTML - Oque é e como usar
+CSS - estilos e propriedades
+JavaScript - For, Array e Objetos

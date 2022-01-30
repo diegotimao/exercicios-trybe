@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ED5051;
+}
+
+.header {
+    width: 100%;
+    height: 125px;
+    background: #CA3635;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 22px;
+    padding: 16px;
+    background: rgb(216, 216, 3);
+    border-radius: 8px;
+}
+
+
+.content {
+    width: 100%;
+    margin-top: 100PX;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content-header {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.content-body {
+    margin: 0 auto;
+}
+
+.super-mario {
+    width: 200px;
+    position: absolute;
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    top: 510px;
+    left: 250px;
+  }
+  
+  .baloon {
+    position: absolute;
+    width: 175px;
+    top: 250px;
+    right: 250px;
+  }
+  
+  .speach {
+    font-size: 25px;
+    position: absolute;
+    top: 280px;
+    right: 310px;
+    width: 75px;
+    color: white;
+  }
+  
+  .bowser {
+    width: 250px;
+    position: absolute;
+    top: 475px;
+    right: 10%;
+  }

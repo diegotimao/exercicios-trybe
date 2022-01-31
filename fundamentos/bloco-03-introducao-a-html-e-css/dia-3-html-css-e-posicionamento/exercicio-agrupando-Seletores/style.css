@@ -1,0 +1,56 @@
+/*
+1 - Adicione uma lista ordenada dos 3 melhores sites que você conhece.
+
+2 - Crie um arquivo no mesmo diretório e nomeie-o de 'style.css'.
+
+3 - Nesse arquivo .css, adicione os estilos para que:
+
+O texto das tags 'h1' e 'p' estejam centralizados.
+A cor de fundo da sua lista mude quando o cursor estiver sobre o item.
+A fonte do item mude quando ele for clicado.
+
+4 - Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
+
+5 - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
+Dica : Nesse link , você irá encontrar a documentação sobre todas as pseudoclasses do CSS.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content-header {
+    width: 100%;
+}
+
+.content-body, p {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: red;
+}
+
+ol {
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+li {
+    margin-left: 55px;
+    padding: 5px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:focus {
+    color: blue;
+}
+
+ol, ul {
+    list-style: none;
+}

@@ -1,0 +1,34 @@
+div:hover {
+    border: 1px solid blue;
+}
+
+#primaria {
+    color: red;
+    background: blue;
+}
+
+#secundaria {
+    color: yellow;
+    background: cornflowerblue;
+}
+
+#complentar {
+    color: brown;
+    height: 80px;
+    background: coral;
+}
+
+#escura {
+    color: cornflowerblue;
+    background: crimson;
+}
+
+#clara {
+    color: crimson;
+    background: chartreuse;
+}
+
+h3:nth-child(odd) {
+    font-style: italic;
+}
+

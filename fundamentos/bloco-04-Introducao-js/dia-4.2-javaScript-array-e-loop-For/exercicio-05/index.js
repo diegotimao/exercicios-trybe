@@ -23,6 +23,6 @@ if(result == 180){
     triangulo = false;
 };
 
-console.log(result);
+console.log(triangulo);
 
 

@@ -11,6 +11,7 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // 2. Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 // 2.1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 
+
 function addClasse(event){
   let removeClass = document.querySelector('.tech');
   removeClass.classList.remove('tech');
@@ -51,7 +52,6 @@ myWebpage.addEventListener('mouseout', function(){
 })
 
 // Segue abaixo um exemplo do uso de event.target:
-
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
   event.target.innerText = 'Opção reiniciada';

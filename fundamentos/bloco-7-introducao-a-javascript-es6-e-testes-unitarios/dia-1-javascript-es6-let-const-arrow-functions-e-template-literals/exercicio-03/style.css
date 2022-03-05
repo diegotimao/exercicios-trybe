@@ -1,0 +1,33 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #34434B;
+}
+
+.display {
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px
+}
+
+.display button {
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.counter {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.counter span {
+    font-size: 425px;
+}

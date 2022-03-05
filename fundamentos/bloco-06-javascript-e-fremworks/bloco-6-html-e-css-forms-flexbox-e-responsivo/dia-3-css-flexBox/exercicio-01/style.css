@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Poppins:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,36 +7,42 @@
   }
   
   body {
-    background-color: rgb(247, 247, 247);
+    background-color: #E6E6F0;
   }
   
   .header-container {
-    background-color: #5C687C;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+    background-image: url(./assets/madmax.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
     height: 100vh;
+    padding: 20px;
+    opacity: 5;
   }
-  
+  .header-content {
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+  }
   .logo-container {
     display: flex;
     justify-content: center;
-    flex-basis: 20%;
     order: 1;
     margin-right: 20px;
   }
   
   .logo-container img {
-      width: 100px;
+      width: 150px;
+      height: 70px;
   }
 
   .menu-container {
     display: flex;
     order: 2;
-    flex-basis: 50%;
   }
   
+
   .menu-container ul {
     display: flex;
     justify-content: space-between;
@@ -45,26 +52,48 @@
   .menu-container li {
     color: white;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
     list-style: none;
     margin-right: 10px;
+    padding: 0 40px;
   }
 
-  .menu-container li:last-child {
-      margin-right: 55px;
+  .header-title {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
   }
+
+  .header-title h1 {
+    font-size: 96px;
+    color: white;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header-title strong {
+    color: white;
+    width: 50%;
+  }
+
 
   .main-container {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1300px;
     justify-content: center;
-    gap: 40px;
-    align-items: center;
+    gap: 30px;
+    margin: auto;
   }
   
   .movie-container {
     display: flex;
     flex-direction: column;
+    flex-basis: 65%;
   }
   
   .movie-container h2 {
@@ -76,26 +105,40 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 700px;
+    
   }
   
-  .card-container div {
+  .card-container .item {
     align-items: center;
-    background-color: #5C687C;
-    border: black solid 1px;
     display: flex;
-    height: 150px;
+    height: 250px;
     justify-content: center;
     margin: 10px;
-    width: 16%;
-    flex-grow: 1;
+    width: 20%;
+    flex-grow: 2;
+    cursor: pointer;
   }
-  
+
+  .card-container .item  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .card-container .item  img:hover {
+    -moz-transform: scale(1.1);
+	  -webkit-transform: scale(1.1);
+	  transform: scale(1.1);                              
+  }
+
   .aside-container {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    width: 350px;
+    flex-basis: 25%;
   }
   
   .aside-container h3, h4 {

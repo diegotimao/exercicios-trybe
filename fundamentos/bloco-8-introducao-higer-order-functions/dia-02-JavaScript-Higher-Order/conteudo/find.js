@@ -34,7 +34,7 @@ const verifyEven = numbers.find(number => number % 2 === 0);
 console.log(verifyEven);
 
 // 1 - Utilize o find para retornar o primeiro número do array que é divisível por 3 e 5 , caso ele exista:
-const findDivisibleBy3And5 = (item) => {
+const findDivisibleBy3And5 = () => {
   // Adiciona seu código aqui
   const numDivider = numbers.find(item => item % 3 === 0 || item % 5 === 0);
 

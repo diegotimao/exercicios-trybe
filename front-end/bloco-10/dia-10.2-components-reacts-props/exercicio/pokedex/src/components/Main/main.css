@@ -1,0 +1,26 @@
+.main {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-top: 45px;
+}
+
+.main-header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 60px auto;
+}

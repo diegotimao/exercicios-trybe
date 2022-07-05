@@ -85,13 +85,16 @@ function averageAge() {
 
 function longestNamedBook() {
   // escreva seu código aqui
-  const names = books.map((book) => book.name);
-  const maiorName = names.reduce((prev, prox) => (prev > prox) ? prev : prox);
+  const names = books.map((book) => book.name + ',');
 
+  names.forEach((item) => console.log(item.length -1))
+
+  const maiorName = names.reduce((prev, prox) => (prev > prox) ? prev : prox);
+  
   return maiorName;
 }
 
-// console.log(longestNamedBook());
+console.log(longestNamedBook());
 
 // 5 - Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
 
@@ -138,7 +141,7 @@ function studentAverage() {
   return item;
 }
 
-console.log(studentAverage());
+// console.log(studentAverage());
 
 
 // const expected = [

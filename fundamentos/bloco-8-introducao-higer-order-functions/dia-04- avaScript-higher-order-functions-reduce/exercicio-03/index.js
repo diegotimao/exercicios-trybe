@@ -74,7 +74,7 @@ function reduceNames() {
   const autors = books.map((item) => {
     return item.author.name;
   });
-
+  
   const autorString = autors.reduce((prev, prox) => {
     return prev + prox;
   }, ' ');
